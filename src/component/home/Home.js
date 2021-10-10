@@ -2,6 +2,7 @@ import React from 'react';
 
 import TotalPost from './TotalPost'
 import LatestPosts from './LatestPosts'
+import BarChartMonth from './BarChartMonth'
 
 const Home = () => {
     return(
@@ -22,7 +23,7 @@ const Home = () => {
                             </div>
                             <div className="col-md-8 panel panel-success">
                                 <label>Posts per month</label>
-                                
+                                <BarChartMonth/>
                             </div>
                         </div>
                     
